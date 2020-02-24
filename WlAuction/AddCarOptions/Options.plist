@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>header</key>
+		<string>Safety</string>
+		<key>options</key>
+		<array>
+			<string>Traction Control</string>
+			<string>Power Door Locks</string>
+			<string>Tire Pressure Monitoring</string>
+			<string>Vehicle Anti-Theft System</string>
+			<string>Fog Lamps</string>
+			<string>Auto-On Headlights</string>
+			<string>Alarm</string>
+			<string>Anti-Lock Brakes</string>
+			<string>Active Suspension System</string>
+			<string>Electronic Stability Control</string>
+		</array>
+	</dict>
+	<dict>
+		<key>header</key>
+		<string>Windows</string>
+		<key>options</key>
+		<array>
+			<string>Rain Sensing Wipers</string>
+			<string>Power Windows</string>
+		</array>
+	</dict>
+	<dict>
+		<key>header</key>
+		<string>Comfort</string>
+		<key>options</key>
+		<array>
+			<string>Keyless Entry</string>
+			<string>Air Conditioning</string>
+			<string>Titl Wheel</string>
+			<string>Cruise Control</string>
+			<string>Power Steering</string>
+			<string>Dual Zone AC</string>
+			<string>Rear AC</string>
+			<string>Handsfree Communications</string>
+			<string>Cooled Driver Seat</string>
+			<string>Climate Control</string>
+			<string>Power Drive Mirror</string>
+			<string>Power Passenger Mirror</string>
+			<string>Steering Wheel Controls</string>
+			<string>Rear Parking Aid</string>
+			<string>Power Sliding Doors</string>
+			<string>Backup Camera</string>
+		</array>
+	</dict>
+	<dict>
+		<key>header</key>
+		<string>Sound System</string>
+		<key>options</key>
+		<array>
+			<string>MP3 Player</string>
+			<string>Entertainment System</string>
+			<string>Satellite Radio</string>
+			<string>Premium Sound</string>
+			<string>AM/FM Stereo</string>
+			<string>CD Changer</string>
+			<string>CD Player</string>
+			<string>DVD Player</string>
+		</array>
+	</dict>
+	<dict>
+		<key>header</key>
+		<string>Seat</string>
+		<key>options</key>
+		<array>
+			<string>Leather Seats</string>
+			<string>Power Driver Seat</string>
+			<string>Bucket Seats</string>
+			<string>Seat Memory</string>
+			<string>Heated Passenger Seat</string>
+			<string>Heated Driver Seat</string>
+			<string>Power Passenger Seat</string>
+		</array>
+	</dict>
+	<dict>
+		<key>header</key>
+		<string>Other Features</string>
+		<key>options</key>
+		<array>
+			<string>Alloy Wheels</string>
+			<string>Sunroof/Moonroof</string>
+			<string>Power Rear Lift Gate</string>
+			<string>Hitch/Towing Package</string>
+			<string>Bed Liner</string>
+			<string>HID Headlights</string>
+			<string>Extended Body</string>
+			<string>Luggage Rack</string>
+			<string>Auxiliary Power Outlet</string>
+			<string>Stepside Pickup Box</string>
+			<string>Navigation System</string>
+			<string>Dual Rear Wheels</string>
+			<string>Tinted Glass</string>
+		</array>
+	</dict>
+</array>
+</plist>

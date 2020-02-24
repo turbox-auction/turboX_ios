@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Bold.ttf">
+            <string>Lato-Bold</string>
+        </array>
+        <array key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="gTV-IL-0wX" customClass="ActivityCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="370" height="217"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="370" height="217"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="izm-ul-cJ3">
+                        <rect key="frame" x="0.0" y="0.0" width="370" height="217"/>
+                    </imageView>
+                    <view alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ikh-qC-BUI">
+                        <rect key="frame" x="0.0" y="142" width="370" height="75"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" misplaced="YES" text="00:00" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uvZ-M1-6BE">
+                                <rect key="frame" x="135" y="52" width="227" height="15"/>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="12"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="16" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GLr-hl-wg1">
+                                <rect key="frame" x="8" y="48" width="25" height="15"/>
+                                <color key="backgroundColor" red="0.25098040699958801" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="25" id="par-yV-NLS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="12"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="Yuy-ah-Bzf">
+                                <rect key="frame" x="41" y="43" width="89" height="24"/>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="12"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="253" verticalCompressionResistancePriority="754" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="IHK-8B-Hbr">
+                                <rect key="frame" x="8" y="8" width="354" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="agV-x2-8s8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="15"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="755" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="3yj-ci-Ilr">
+                                <rect key="frame" x="8" y="26" width="49" height="17"/>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="14"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="qVm-De-Re4">
+                                <rect key="frame" x="8" y="36" width="354" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4rP-16-eRE">
+                                        <rect key="frame" x="0.0" y="0.0" width="172" height="30"/>
+                                        <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Launch">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JeF-XQ-Myd">
+                                        <rect key="frame" x="182" y="0.0" width="172" height="30"/>
+                                        <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Edit">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="GLr-hl-wg1" firstAttribute="leading" secondItem="Ikh-qC-BUI" secondAttribute="leading" constant="8" id="2J7-1F-2wh"/>
+                            <constraint firstAttribute="trailing" secondItem="IHK-8B-Hbr" secondAttribute="trailing" constant="8" id="6R7-c0-eMH"/>
+                            <constraint firstItem="3yj-ci-Ilr" firstAttribute="top" secondItem="IHK-8B-Hbr" secondAttribute="bottom" id="85v-Ys-g2y"/>
+                            <constraint firstItem="IHK-8B-Hbr" firstAttribute="leading" secondItem="Ikh-qC-BUI" secondAttribute="leading" constant="8" id="Ig3-vs-OlL"/>
+                            <constraint firstItem="qVm-De-Re4" firstAttribute="top" secondItem="IHK-8B-Hbr" secondAttribute="bottom" constant="10" id="J9U-2q-xG8"/>
+                            <constraint firstAttribute="bottom" secondItem="Yuy-ah-Bzf" secondAttribute="bottom" constant="8" id="RXl-ob-Emn"/>
+                            <constraint firstAttribute="height" constant="75" id="SRD-vV-HWh"/>
+                            <constraint firstAttribute="trailing" secondItem="uvZ-M1-6BE" secondAttribute="trailing" constant="8" id="Xl3-xD-nlt"/>
+                            <constraint firstItem="qVm-De-Re4" firstAttribute="trailing" secondItem="IHK-8B-Hbr" secondAttribute="trailing" id="Zwh-C5-tB3"/>
+                            <constraint firstItem="3yj-ci-Ilr" firstAttribute="leading" secondItem="Ikh-qC-BUI" secondAttribute="leading" constant="8" id="lb8-za-8ma"/>
+                            <constraint firstItem="IHK-8B-Hbr" firstAttribute="top" secondItem="Ikh-qC-BUI" secondAttribute="top" constant="8" id="lw2-Ow-q3O"/>
+                            <constraint firstAttribute="bottom" secondItem="uvZ-M1-6BE" secondAttribute="bottom" constant="8" id="pC5-P0-8pW"/>
+                            <constraint firstItem="GLr-hl-wg1" firstAttribute="centerY" secondItem="Yuy-ah-Bzf" secondAttribute="centerY" id="r8q-B7-c6d"/>
+                            <constraint firstItem="Yuy-ah-Bzf" firstAttribute="top" secondItem="3yj-ci-Ilr" secondAttribute="bottom" id="uGV-m4-Pc3"/>
+                            <constraint firstItem="qVm-De-Re4" firstAttribute="leading" secondItem="IHK-8B-Hbr" secondAttribute="leading" id="v7V-Ke-ikS"/>
+                            <constraint firstItem="Yuy-ah-Bzf" firstAttribute="leading" secondItem="GLr-hl-wg1" secondAttribute="trailing" constant="8" id="vKu-CL-sUv"/>
+                            <constraint firstItem="uvZ-M1-6BE" firstAttribute="leading" secondItem="Yuy-ah-Bzf" secondAttribute="trailing" constant="5" id="xBb-eP-F6c"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="izm-ul-cJ3" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="6Wx-LN-0GW"/>
+                <constraint firstAttribute="bottom" secondItem="izm-ul-cJ3" secondAttribute="bottom" id="Wh9-FV-X5G"/>
+                <constraint firstAttribute="bottom" secondItem="Ikh-qC-BUI" secondAttribute="bottom" id="eNY-3H-r7q"/>
+                <constraint firstItem="Ikh-qC-BUI" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="flB-w8-xsc"/>
+                <constraint firstAttribute="trailing" secondItem="izm-ul-cJ3" secondAttribute="trailing" id="ixV-Lf-j2K"/>
+                <constraint firstItem="izm-ul-cJ3" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="jxD-r5-Lk5"/>
+                <constraint firstAttribute="trailing" secondItem="Ikh-qC-BUI" secondAttribute="trailing" id="wc5-0r-Q6B"/>
+            </constraints>
+            <size key="customSize" width="370" height="217"/>
+            <connections>
+                <outlet property="editBtn" destination="JeF-XQ-Myd" id="wLI-nS-dma"/>
+                <outlet property="imgCar" destination="izm-ul-cJ3" id="N3a-9S-XRu"/>
+                <outlet property="lblBids" destination="GLr-hl-wg1" id="6fL-y7-eG6"/>
+                <outlet property="lblCountDown" destination="uvZ-M1-6BE" id="eP4-7q-Bw2"/>
+                <outlet property="lblDistance" destination="Yuy-ah-Bzf" id="0sR-L6-kAj"/>
+                <outlet property="lblPrice" destination="3yj-ci-Ilr" id="vEB-f6-mrI"/>
+                <outlet property="lblVehicleName" destination="IHK-8B-Hbr" id="X10-Za-jMd"/>
+                <outlet property="postNowBtn" destination="4rP-16-eRE" id="9qK-u6-iTB"/>
+                <outlet property="view" destination="Ikh-qC-BUI" id="Pcp-7B-IS3"/>
+            </connections>
+            <point key="canvasLocation" x="494" y="255.5"/>
+        </collectionViewCell>
+    </objects>
+</document>
